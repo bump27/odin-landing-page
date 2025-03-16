@@ -1,3 +1,11 @@
+.roboto-font {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
 .header{
     background-color: #1f2937;
     color: white;
@@ -5,7 +13,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 40px;
+    padding-right: 100px;
     padding-bottom: 48px;
 }
 .header-links{
@@ -15,7 +23,7 @@
     font-size: 36px;
     font-weight: 900;
     margin: 16px;
-    margin-left: 24px;
+    margin-left: 100px;
 }
 a{
     text-decoration: none;
@@ -35,7 +43,7 @@ ul{
 }
 .stuffsone{
     padding: 16px;
-    padding-left: 24px;
+    padding-left: 100px;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -43,7 +51,7 @@ ul{
 s1.img, img{
     width: 400px;
     height: auto;
-    padding-right: 50px;
+    padding-right: 100px;
     padding-bottom: 50px;
 }
 .sign-up-one > button{
@@ -84,6 +92,8 @@ s1.img, img{
     background-color: #E5E7E5;
     padding: 40px;
     margin-top: 40px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 .yap{
     font-family: 'Roboto', sans-serif;
@@ -95,7 +105,9 @@ s1.img, img{
     display: flex;
     justify-content: flex-end;
     font-weight: 800;
+    padding-right: 150px;
     font-family: 'Roboto', sans-serif;
+    font-size: 20px;
 }
 
 .call{
@@ -103,7 +115,10 @@ s1.img, img{
     display: flex;
     color: white;
     padding: 50px;
-    margin: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
     justify-content: space-between;
     align-items: center;
     font-family: 'Roboto', sans-serif;
