@@ -1,0 +1,143 @@
+.header{
+    background-color: #1f2937;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 40px;
+    padding-bottom: 48px;
+}
+.header-links{
+    display: flex;
+}
+.logo{
+    font-size: 36px;
+    font-weight: 900;
+    margin: 16px;
+    margin-left: 24px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+.section-one{
+    background-color: #1f2937;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.stuffsone{
+    padding: 16px;
+    padding-left: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+s1.img, img{
+    width: 400px;
+    height: auto;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+.sign-up-one > button{
+    background-color: #3882F6;
+    border-radius: 6px;
+    width: 100px;
+    height: 40px;
+    border: 0;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+.s2title{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    margin-bottom: 32px;
+    margin-top: 16px;
+}
+.information > .info > img{
+    width: 200px;
+    height: auto;
+}
+.information{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote{
+    background-color: #E5E7E5;
+    padding: 40px;
+    margin-top: 40px;
+}
+.yap{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+.author{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+}
+
+.call{
+    background-color:#3882F6;
+    display: flex;
+    color: white;
+    padding: 50px;
+    margin: 50px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    border-radius: 16px;
+}
+.call-title{
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.sign-up-two > button{
+    background-color: #3882F6;
+    border-radius: 6px;
+    width: 100px;
+    height: 40px;
+    border: 2.5px solid;
+    border-color: white;
+    color: white;
+    outline: none;
+    font-size: 16px;
+    font-weight: 700;
+    align-items: center;
+    box-shadow: none;
+}
+.footer{
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto, sans-serif;
+    padding: 24px;
+    font-size: 18px;
+}
